@@ -1,0 +1,133 @@
+.product-detail .check-instore-availabilty {
+    color: #82786f;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.88rem;
+    line-height: 42px;
+    cursor: pointer;
+    margin: 4% 6%;
+    overflow: auto;
+    display: block;
+}
+
+.product-detail .check-instore-availabilty .icon-cities {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    image-rendering: -webkit-optimize-contrast;
+    background: url('../images/icons.png') 282px -115px;
+    background-size: 1000%;
+    vertical-align: top;
+    margin-right: 2%;
+}
+
+.product-detail .product-name,
+.product-detail .category,
+.product-detail .price-sales {
+    margin: 4% 6%;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000000;
+}
+
+.product-detail .product-name {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+    line-height: normal;
+    font-size: 1.44rem;
+    margin-top: 6%;
+    letter-spacing: 3.55px
+}
+
+.product-detail .category {
+    margin-bottom: 0;
+    font-size: 0.82rem;
+    line-height: 1.25rem;
+}
+
+.product-detail .price-sales {
+    font-size: 1.25rem;
+    letter-spacing: 3px;
+    margin-top: 2%;
+}
+
+.product-detail .price-sales:before {
+    content: '';
+    width: 70px;
+    margin-bottom: 6%;
+    border-top: 1px solid #000;
+    display: block;
+}
+
+.product-detail .container {
+    margin-top: 10%;
+    padding: 4%;
+    background-color: #f6f3ee;
+}
+
+.product-detail .accordion {
+    margin-bottom: 6%;
+}
+
+.product-detail .accordion .title {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 1.13rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #43423f;
+    padding: 2.61%;
+    margin: 0 0 4%;
+    color: #1c1b1b;
+    letter-spacing: 0.1rem;
+}
+
+.product-detail .accordion .title-container {
+    position: relative;
+}
+
+.product-detail .accordion .icon {
+    display: block;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: 0;
+    top: 12%;
+    image-rendering: -webkit-optimize-contrast; 
+}
+
+.product-detail .accordion .expanded {
+    background: url('../images/icons.png') 186px -150px;
+    background-size: 1000%;
+}
+
+.product-detail .accordion .expand {
+    background: url('../images/icons.png') 70px -150px;
+    background-size: 1000%;
+}
+
+.product-detail .accordion .content, 
+.product-detail .accordion .details {
+    font-family: Arial;
+    font-size: 0.85rem;
+    color: #7a7873;
+}
+
+.product-detail .accordion .content {
+    padding: 0 2.61% 2.61%;
+}
+
+.product-detail .accordion .details ul {
+    padding: 0 7% 2.7%;
+}
+
+.product-detail .accordion .details p {
+    padding: 0.5% 2.5%;
+}
+
+/* iPhone X media query */
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 812px) 
+and (-webkit-device-pixel-ratio : 3) {
+    .product-detail {
+    }
+}

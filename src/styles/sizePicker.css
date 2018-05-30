@@ -1,0 +1,26 @@
+.size-picker {
+	margin: 4%;
+}
+
+.size-picker span {
+    color: #393938;
+    background-color: #f6f3ee;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 2%;
+    border: 0.1rem solid transparent;
+    font-size: 0.8rem;
+    font-family: Arial;
+}
+
+.size-picker span.active {
+    border: 0.1rem solid #393938;
+    font-weight: bold;
+}

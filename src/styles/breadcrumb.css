@@ -1,0 +1,8 @@
+.breadcrumb {
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 0.6rem;
+    width: 93%;
+    margin: 4% auto;
+    color: gray;
+}

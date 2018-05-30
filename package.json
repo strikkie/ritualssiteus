@@ -1,0 +1,36 @@
+{
+    "name": "weworkapp",
+    "description": "Ritual Demo",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/salesforce-demos/rituals-website"
+    },
+    "version": "0.0.0",
+    "dependencies": {},
+    "devDependencies": {
+        "webpack": "~1.10.1",
+        "express": "^4.16.3",
+        "grunt-cli": "~0.1.13",
+        "react": "~0.14.4",
+        "react-dom": "~0.14.6",
+        "react-addons-css-transition-group": "~0.14.6",
+        "react-hot-loader": "~1.2.4",
+        "reflux": "^6.4.1",
+        "webpack-dev-server": "~1.10.1",
+        "grunt-webpack": "~1.0.8",
+        "matchdep": "~0.3.0",
+        "grunt": "~0.4.5",
+        "jsx-loader": "~0.13.1",
+        "react-mini-router": "~2.0.0",
+        "css-loader": "~0.10.1",
+        "file-loader": "~0.8.1",
+        "url-loader": "~0.5.5",
+        "style-loader": "~0.10.1",
+        "grunt-contrib-copy": "~0.8.0",
+        "react-responsive": "~0.0.6",
+        "string": "~3.1.1",
+        "moment": "^2.21.0",
+        "jquery": "^3.3.1",
+        "lodash": "^4.17.5"
+    }
+}

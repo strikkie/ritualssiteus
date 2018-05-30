@@ -1,0 +1,96 @@
+.rituals-header {
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid #efefef;
+    overflow: hidden;
+    padding: 10% 2% 0;
+}
+
+.rituals-header section {
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.rituals-header section:not(:last-child) {
+    border-right: 1px solid #efefef;
+}
+
+.rituals-header section.main-section {
+    width: 45%;
+}
+
+.rituals-header section.search-section {
+    width: 40%;
+}
+
+.rituals-header section.bag-section {
+    width: 13%;
+    position: relative;
+}
+
+.rituals-header .icon {
+    display: inline-block;
+    background: url("../images/icons.png") no-repeat;
+    background-size: 20rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.rituals-header .icon.hamburger {
+    background-position: -47px -186px;
+}
+
+.rituals-header .icon.profile {
+    background-position: 0 0;
+    float: right;
+    margin-right: 3%;
+}
+
+.rituals-header .icon.loupe {
+    background-position: -94px -280px;
+    margin-left: 3%;
+}
+
+.rituals-header .icon.bag {
+    background-position: -283px -280px;
+    margin-left: 25%;
+}
+
+.rituals-header .circle {
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.rituals-header .circle:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background: #9BCA70;
+    border-radius: 50%;
+}
+
+.rituals-header .circle .circle-text {
+    float: left;
+    width: 100%;
+    padding-top: 50%;
+    line-height: 1rem;
+    margin-top: -0.5rem;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.rituals-header .header-title {
+    display: inline-block;
+    background: url("../images/icons.png") no-repeat;
+    background-position: 7px -86px;
+    background-size: 7rem;
+    width: 75%;
+    height: 0.75rem;
+    margin-bottom: 6%;
+}

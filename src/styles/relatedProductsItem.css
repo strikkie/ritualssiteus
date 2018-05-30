@@ -1,0 +1,28 @@
+.related-products-item {
+    width: 44%;
+    padding: 3%;
+    float: left;
+    overflow: auto;
+    text-align: center;
+    color: black;
+}
+
+.related-products-item  .item-picture {
+    max-width: 100%;
+    margin: auto;
+}
+
+.related-products-item  .item-data .name {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    min-height: 4rem;
+    font-size: 0.87rem;
+    color: #000000;
+    margin-top: 1rem;
+}
+
+.related-products-item  .item-data .price {
+    margin: 2% 0% 7% 0%;
+    display: inline-block;
+}

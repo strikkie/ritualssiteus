@@ -1,0 +1,20 @@
+.checkoutDetail {
+
+}
+
+.checkoutDetail .input.phone {
+    margin-bottom: 0;
+}
+
+.checkoutDetail .input.phone + .example {
+    display: block;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    color: #525252;
+    font-size: 0.9rem;
+}
+
+.checkoutDetail .check {
+    color: #525252;
+    font-size: 0.9rem;
+}

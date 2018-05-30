@@ -1,0 +1,111 @@
+.cart-item {
+    padding: 4% 0;
+    margin: 0 4%;
+    overflow: auto;
+    font-family: Arial;
+}
+
+.cart-item:not(:last-child) {
+    border-bottom: 1px solid #efefef;
+}
+
+.cart-item .item-data-container {
+    padding: 4% 0;
+    overflow: auto;
+}
+
+.cart-item .item-data-container .picture {
+    margin-right: 4%;
+    float: left;
+    max-width: 25%;
+}
+
+.cart-item .item-data-container .picture.small-pic {
+    max-width: 5rem;
+}
+
+.cart-item .item-data-container .item-data {
+    color: #000000;
+    font-size: 0.875rem;
+}
+
+.cart-item .item-data-container .item-data span {
+    margin-bottom: 2%;
+}
+
+.cart-item .item-data-container .item-data .name {
+    display: block;
+}
+
+.cart-item .item-data-container .item-data .size {
+    display: block;
+}
+
+.cart-item .item-data-container .item-data .size .letter {
+    text-transform: uppercase;
+}
+
+.cart-item .item-data-container .item-data .edit {
+    display: block;
+    color: #85c6d6;
+}
+
+.cart-item .actions .remove {
+    display: inline-block;
+    float: left;
+    text-decoration: underline;
+    padding-top: 0.45rem;
+}
+
+.cart-item .actions .quantity {
+    float: left;
+    width: 40%;
+    margin: 0 10% 0 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart-item .circle {
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    border: 0.1rem solid #82786f;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.cart-item .actions .quantity .number {
+    float: left;
+    padding: 0.5rem 0;
+}
+
+.cart-item .actions .price {
+    float: right;
+    padding-top: 0.45rem;
+    color: black;
+}
+
+.cart-item .summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-item .icon {
+    display: inline-block;
+    background: url("../images/icons.png") no-repeat;
+    background-size: 20rem;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cart-item .icon.plus {
+    background-position: -282px -186px;
+}
+
+.cart-item .icon.minus {
+    background-position: -141px -186px;
+}

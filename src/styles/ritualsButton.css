@@ -1,0 +1,71 @@
+.rituals-button {
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%;
+    padding: 4%;
+    font-size: 0.9rem;
+    font-family: Arial;
+}
+
+.rituals-button:active {
+    opacity: 0.5;
+}
+
+.rituals-button.cancel {
+    color: black;
+    background-color: white;
+    border: 1px solid #393938;
+}
+
+.rituals-button.submit {
+    color: white;
+    background-color: #9acb6c;
+}
+
+.rituals-button.disabled {
+    color: #999999;
+    background-color: #f6f3ef;
+}
+
+.rituals-button.checkout-login-btn {
+    width: 92%;
+    margin-bottom: 6%;
+    color: white;
+    background-color: #9acb6c;
+    font-size: 0.75rem;
+}
+
+.rituals-button.add-to-cart {
+    margin: auto;
+}
+
+.rituals-button.add-to-cart.related-product {
+    padding: 8% 4%;
+    font-size: 65%;
+}
+
+.rituals-button.select-size {
+    border: none;
+    padding: 4% 10.6%;
+    width: 21.85%;
+    margin: 0 0 6% 6%;
+    font-size: 0.75rem;
+}
+
+.rituals-button.facebook {
+    background: url(../images/facebook-button.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+    color: transparent;
+    height: 2rem;
+}
+
+.rituals-button.google {
+    background: url(../images/google-button.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+    color: transparent;
+    height: 2rem;
+}

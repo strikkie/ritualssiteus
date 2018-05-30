@@ -1,0 +1,63 @@
+.checkoutDelivery {
+    font-size: 0.9rem;
+    color: #525252;
+}
+
+.checkoutDelivery .terms {
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.checkoutDelivery .link {
+    color: #88c7d4;
+}
+
+.checkoutDelivery .resume {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.checkoutDelivery .resume div.row, .checkoutDelivery .delivery-options div.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkoutDelivery .resume div.row .action, .checkoutDelivery .delivery-options .action {
+    color: #88c7d4;
+    text-decoration: underline;
+}
+
+.checkoutDelivery .resume label.row {
+    display: block;
+}
+
+.checkoutDelivery .delivery-options {
+    background-color: white;
+    padding: 1rem 1rem 1rem 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.checkoutDelivery .delivery-options .time-range {
+    margin-left: 2rem;
+}
+
+.checkoutDelivery .delivery-options .radio {
+    vertical-align: top;
+    margin-right: 1rem;
+}
+
+.checkoutDelivery .delivery-options .option-wrapper {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #dad6d2;
+    padding-bottom: 1rem;
+}
+
+.checkoutDelivery .delivery-options .option-wrapper.no-underline {
+    margin-bottom: 0rem;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.checkoutDelivery .delivery-options .option-wrapper:nth-child(2) {
+    margin-top: 1rem;
+}

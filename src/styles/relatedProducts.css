@@ -1,0 +1,19 @@
+.related-products {
+    overflow: auto;
+    margin: 5%;
+    position: relative;
+}
+
+.related-products .dots {
+    max-width: 1.5rem;
+    display: block;
+    margin: 5% auto;
+}
+
+.related-products .title {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 4%;
+    font-size: 1.12rem;
+    color: #000000;
+}

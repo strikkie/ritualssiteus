@@ -1,0 +1,52 @@
+.loading {
+    position: fixed;
+    z-index: 4;
+    display: none;
+    top: 0;
+}
+
+.loading.active {
+    display: block;
+}
+
+.loading .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.loading .spinner-container .spinner {
+    top: 50% !important;
+    left: 50% !important;
+}
+
+/* iPhone X */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .loading .overlay {
+            width: 375px;
+            height: 812px;
+        }
+    }
+
+/* iPhone 8 */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+        .loading .overlay {
+            width: 375px;
+            height: 667px;
+        }
+    }
+
+/* iPhone 8 Plus */
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .loading .overlay {
+            width: 414px;
+            height: 736px;
+        }
+    }

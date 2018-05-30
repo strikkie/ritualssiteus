@@ -1,0 +1,156 @@
+.cart-screen {
+    color: #847970;
+}
+
+.cart-screen .title {
+    text-transform: uppercase;
+    margin: 4%;
+}
+
+.cart-screen .cart .title {
+    text-align: center;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    border-bottom: 1px solid #847970;
+    padding: 4%;
+}
+
+.cart-screen .gift .title {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+    padding: 4% 0;
+}
+
+.cart-screen .gift .gift-data {
+    font-family: Arial;
+    padding-bottom: 4%;
+    margin: 4%;
+    overflow: auto;
+    position: relative;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.cart-screen .gift .gift-data img {
+    max-width: 25%;
+    float: left;
+}
+
+.cart-screen .gift .gift-data .gift-name {
+    display: inline-block;
+    position: absolute;
+    width: 30%;
+    top: 0;
+    bottom: 0;
+    height: 30%;
+    margin: auto;
+    padding-left: 4%;
+    color: black;
+    font-size: 0.875rem;
+}
+
+.cart-screen .gift .gift-data .premium-gift-name {
+    padding: 4%;
+    color: #939393;
+}
+
+.cart-screen .gift .gift-data .premium-gift-description {
+    background-color: #f6f3ef;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    padding: 3% 0 3% 3%;
+    margin: 3% 0 3% 3%;
+    float: left;
+    width: 69%;
+    font-size: 0.8rem;
+    font-family: Arial;
+}
+
+.cart-screen .add-giftwrapping {
+    color: #000000;
+    font-family: Arial;
+    font-size: 0.875rem;
+}
+
+.cart-screen .add-giftwrapping,
+.cart-screen .coupon-code {
+    background-color: #f6f3ef;
+    border-radius: 5px;
+    padding: 4%;
+    margin: 1% 4% 0 4%;
+}
+
+.cart-screen .add-giftwrapping input,
+.cart-screen .coupon-code .plus {
+    float: right;
+}
+
+.cart-screen .coupon-code input {
+    background: none;
+    border: none;
+    padding-bottom: 3%;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    font-size: 1rem;
+    width: 65%;
+}
+
+.cart-screen .coupon-code input::placeholder {
+    color: #939393;
+}
+
+.cart-screen .coupon-code .plus {
+    margin: 2%;
+}
+
+.cart-screen .subs {
+    border-bottom: 1px solid gray;
+    padding: 4% 0;
+    margin: 4%;
+}
+
+.cart-screen .value {
+    float: right;
+}
+
+.cart-screen .estimated-total {
+    margin: 4%;
+}
+
+.cart-screen .label {
+    text-transform: uppercase;
+}
+
+.cart-screen  .subtotal-total {
+    margin: 0 2% 8%;
+    color: #000000;
+}
+
+.cart-screen  .subtotal-total .subtotal {
+    line-height: 3rem;
+}
+
+.cart-screen .secure-checkout {
+    color: #9acb6b;
+    text-align: center;
+    margin: 4%;
+    display: inline-block;
+    width: 92%;
+}
+
+.cart-screen .return-to-shopping {
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    margin: 4%;
+}
+
+/* iPhone X media query */
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 812px) 
+and (-webkit-device-pixel-ratio : 3) {
+    .cart-screen {
+    }
+}

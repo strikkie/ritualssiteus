@@ -1,0 +1,235 @@
+.apple-pay {
+    width: 100%;
+    height: calc(100% - 80px);
+    position: fixed;
+    top: -1rem;
+    font-size: 0.85rem;
+    background: rgba(0, 0, 0, 0.4);
+    font-family: 'HelveticaNeue';
+    z-index: 9999;
+    visibility: visible;
+    transition: visibility 0.3s linear;
+    -webkit-transition: visibility 0.3s linear;
+}
+
+.apple-pay.hidden {
+   visibility: hidden;
+}
+
+.apple-pay .description p {
+    font-size: 0.8rem;
+}
+
+.apple-pay .apple-pay-logo {
+    width: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.apple-pay .ap-header {
+    padding: 0.8rem;
+    border-bottom: 0.001rem solid #cacaca;
+}
+
+.apple-pay .ap-header .action {
+    float: right;
+    font-size: 1.3rem;
+    display: inline-block;
+    text-align: right;
+}
+
+.apple-pay .highlight {
+    color: #009fff;
+}
+
+.apple-pay .ap-cancel {
+    cursor: pointer;
+}
+
+.apple-pay .ap-container {
+    background: #ffffff;
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    height: 87%;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+}
+
+.apple-pay .fingerprint-row {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.apple-pay .fingerprint-row > .apple-pay-gif img {
+    width: 155px;
+    display: inline-block;
+}
+
+.apple-pay .fingerprint-row > .apple-pay-gif img.face-id {
+    display: none;
+}
+
+.apple-pay .info-row {
+    display: flex;
+    margin-left: 15px;
+    border-bottom: 0.001rem solid #cacaca;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.apple-pay .info-row .label {
+    width: 30%;
+    float: left;
+    text-align: right;
+    padding: 1rem 1rem 1rem 0;
+    color: #afafaf;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-box-sizing: border-box;
+}
+
+.apple-pay .info-row .description {
+    width: 62%;
+    float: left;
+    padding: 1rem 1rem 1rem 0;
+    text-transform: uppercase;
+    -webkit-box-sizing: border-box;
+}
+
+.apple-pay .info-row .totals {
+    width: 70%;
+    float: left;
+    padding: 1rem 1rem 1rem 0;
+    text-transform: uppercase;
+    -webkit-box-sizing: border-box;
+}
+
+.apple-pay .info-row .totals .total-label {
+    width: 60%;
+    float: left;
+    color: #afafaf;
+    font-weight: 600;
+    padding: 0.2rem 0;
+    text-transform: uppercase;
+    -webkit-box-sizing: border-box;
+}
+
+.apple-pay .info-row .totals .total-value {
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 0.2rem 0;
+    text-transform: uppercase;
+    -webkit-box-sizing: border-box;
+}
+
+.apple-pay .info-row .totals .total-value.total {
+    font-size: 1.4rem;
+}
+
+.apple-pay .info-row .totals .total-label.total-pay {
+    color: #000;
+    padding-top: 0.8rem;
+}
+
+.apple-pay .info-row .action {
+    width: 8%;
+    float: left;
+    position: relative;
+}
+
+.apple-pay .info-row .action > img {
+    width: 15px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.apple-pay .credit-card {
+    width: 50px;
+    display: unset;
+    float: right;
+    border-radius: 8%;
+}
+
+@-webkit-keyframes slideUp {
+    0% {bottom: -100%;}
+    100% {bottom: 1rem;}
+}
+
+@keyframes slideUp {
+    0% {bottom: -100%;}
+    100% {bottom: 0;}
+}
+
+.slide-up {
+    -webkit-animation-name: slideUp;
+    animation-name: slideUp;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+}
+
+@-webkit-keyframes slideDown {
+    0% {bottom: 0%;}
+    100% {bottom: -100%;}
+}
+
+@keyframes slideDown {
+    0% {bottom: 0%;}
+    100% {bottom: -100%;}
+}
+
+.slide-down {
+    -webkit-animation-name: slideDown;
+    animation-name: slideDown;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/* iPhone X */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .apple-pay {
+            height: 812px;
+        }
+
+        .apple-pay .fingerprint-row > .apple-pay-gif img.finger-print {
+            display: none;
+        }
+
+        .apple-pay .fingerprint-row > .apple-pay-gif img.face-id {
+            display: inline-block;
+            height: 100.5px;
+            width: auto;
+        }
+    }
+
+/* iPhone 8 */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) {
+        .apple-pay {
+            height: 667px;
+        }
+
+        .apple-pay .ap-container {
+            height: 97%;
+        }
+    }
+
+/* iPhone 8 Plus */
+@media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .apple-pay {
+            height: 736px;
+        }
+    }
