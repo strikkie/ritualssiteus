@@ -3,7 +3,7 @@
     "description": "Ritual Demo",
     "repository": {
         "type": "git",
-        "url": "https://github.com/salesforce-demos/rituals-website"
+        "url": "https://rituals-site-us.herokuapp.com"
     },
     "version": "0.0.0",
     "dependencies": {},
